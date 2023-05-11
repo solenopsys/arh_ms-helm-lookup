@@ -4,11 +4,11 @@ selectorLabel: "alexstorm-helm-lookup"
 
 configmap:
   name: "helm-repositories"
-  main_repo: "http://helm.klogsolenopsys.org"
+  main_repo: "http://helm.solenopsys.org"
 
 container:
   name: repo
-  image: registry.klogsolenopsys.org/alexstorm-helm-lookup
+  image: registry.solenopsys.org/alexstorm-helm-lookup
   serviceAccount: "hc-infra"
   pullPolicy: Always
   zmqPort: 9999
