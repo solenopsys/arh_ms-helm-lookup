@@ -1,4 +1,6 @@
-# proto gen
+# helm lookup
+
+## proto gen
 protoc --proto_path=. --go_out=.  api.proto
 
 # Env Vars
